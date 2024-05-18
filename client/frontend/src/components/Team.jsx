@@ -2,7 +2,7 @@ import React from 'react';
 
 const Team = () => {
   return (
-    <div className=" pb-20 max-w-7xl px-2 mx-28 md:px-0">
+    <div className="pb-40 max-w-7xl px-2 mx-8 lg:mx-24 md:px-0">
       <div className="my-4">
         <h1 className="text-3xl font-bold">People who made it successful</h1>
         <p className="mt-2 text-gray-500">
