@@ -1,5 +1,5 @@
-import React from 'react';
-import Team from './Team';
+import React from "react";
+import Team from "./Team";
 
 const Hero = () => {
   return (
@@ -34,13 +34,14 @@ const Hero = () => {
           </div>
           <div className="text-center">
             <h1 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-            Revolutionize Attendance Tracking with Attendance GPT
+              Revolutionize Attendance Tracking with Attendance GPT
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-            Attendance GPT accelerates attendance tracking, offering an efficient solution for streamlining your process. Simplify your workflow and save time with advanced automation.
+              Attendance GPT accelerates attendance tracking, offering an
+              efficient solution for streamlining your process. Simplify your
+              workflow and save time with advanced automation.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-2">
-              
               <button
                 type="button"
                 className="rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
@@ -63,7 +64,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <Team/>
+      <Team />
     </>
   );
 };
