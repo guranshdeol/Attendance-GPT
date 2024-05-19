@@ -74,7 +74,7 @@ def recognize_and_mark_attendance():
     attendance_list = []
 
     def write_to_csv(name, roll_number):
-        with open('attendance.csv', mode='a', newline='') as file:
+        with open('client/frontend/public/attendance/attendance.csv', mode='a', newline='') as file:
             writer = csv.writer(file)
             writer.writerow([datetime.now().strftime('%Y-%m-%d %H:%M:%S'), name, roll_number])
 
