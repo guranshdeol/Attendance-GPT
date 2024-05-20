@@ -7,8 +7,10 @@ import pickle
 import os
 import csv
 from datetime import datetime
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 # Create the necessary directories
 if not os.path.exists('face_data'):
@@ -79,7 +81,7 @@ def recognize_and_mark_attendance():
     recognized_names = []
 
     def write_to_csv(name, roll_number):
-        with open('attendance.csv', mode='a', newline='') as file:
+        with open('client/frontend/public/attendance/attendance.csv', mode='a', newline='') as file:
             writer = csv.writer(file)
             writer.writerow([datetime.now().strftime('%Y-%m-%d %H:%M:%S'), name, roll_number])
 
