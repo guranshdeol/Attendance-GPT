@@ -16,12 +16,12 @@ const Team = () => {
             style={{ backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}
           >
             <img
-              src="src\assets\abhishek-att.png"
+              src="src\assets\mishika.jpg"
               alt=""
               className="z-0 h-full w-full rounded-[10px] object-cover"
             />
             <div className="absolute bottom-4 left-4">
-              <h1 className="text-xl font-semibold text-white">Abhishek</h1>
+              <h1 className="text-xl font-semibold text-white">Mishika Maluja</h1>
               <h6 className="text-base text-white">Backend Developer</h6>
             </div>
           </div>
@@ -32,12 +32,12 @@ const Team = () => {
             style={{ backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}
           >
             <img
-              src="src\assets\aadarsh-att.png"
+              src="src\assets\vidit.jpg"
               alt=""
               className="z-0 h-full w-full rounded-[10px] object-cover"
             />
             <div className="absolute bottom-4 left-4">
-              <h1 className="text-xl font-semibold text-white">Aadarsh</h1>
+              <h1 className="text-xl font-semibold text-white">Vidit Garg</h1>
               <h6 className="text-base text-white">Frontend Developer</h6>
             </div>
           </div>
@@ -48,7 +48,7 @@ const Team = () => {
             style={{ backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}
           >
             <img
-              src="src\assets\guransh-att.png"
+              src="src\assets\guransh.jpg"
               alt=""
               className="z-0 h-full w-full rounded-[10px] object-cover"
             />
